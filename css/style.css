@@ -6,15 +6,25 @@
   text-align: center;
 }
 
-.container2{
+.col-6> .container{
 padding: 5px;
 height: 200px;
   
 }
 
-.container2 [class*="col-"]{
+.col-6> .container [class*="col-"]{
   border: 1px solid white;
   background-color: #F08080 ;
   height: 100%;
-  
+  line-height: 20px;
+}
+
+.relative {
+  position: relative;
+}
+
+span{
+  position: absolute;
+  top:50%;
+  left: 50%;
 }

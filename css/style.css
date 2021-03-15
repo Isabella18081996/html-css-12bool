@@ -1,0 +1,20 @@
+[class*="col-"]{
+  background-color: #FEC0CB;
+  border: 1px solid black;
+  height: 200px;
+  line-height: 200px;
+  text-align: center;
+}
+
+.container2{
+padding: 5px;
+height: 200px;
+  
+}
+
+.container2 [class*="col-"]{
+  border: 1px solid white;
+  background-color: #F08080 ;
+  height: 100%;
+  
+}
